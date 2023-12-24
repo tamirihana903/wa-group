@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bgwa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    /* filter: blur(5px); */
+
+}
+
+.container {
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .row .gm {
+    margin-top: -140px;
+    width: 140px;
+    height: 135px;
+    border-radius: 50%;
+}
+
+.container .row h6 {
+    color: rgb(101, 101, 101);
+    margin-top: 10px;
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container .row p {
+    font-size: 14px;
+}
+
+.container .row .btn {
+    padding: 12px 10px 12px 10px;
+    background-color: #128c7e;
+    width: 190px;
+    border-radius: 50px;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+footer p {
+    margin-bottom: -1px;
+}
+
+footer a {
+    color: #44b7ee;
+    text-decoration: none;
+}

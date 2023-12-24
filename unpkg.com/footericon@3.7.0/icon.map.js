@@ -1,0 +1,1 @@
+Cannot find package footericon@3.7.0
